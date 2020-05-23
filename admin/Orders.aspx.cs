@@ -19,7 +19,7 @@ namespace WPLProject.admin
         {
             NoSale.Text = "No order sales found";
             totalAmount.Text = "No order amount found";
-            if (HttpContext.Current.Session["admin"] != null)
+            if (Session["admin"] != null)
             {
                 
                 welcomeLbl.Text = "Welcome " + Session["admin"].ToString();

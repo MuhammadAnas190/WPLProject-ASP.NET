@@ -67,7 +67,7 @@
                         runat="server" 
                         ConnectionString="<%$ ConnectionStrings:db_PaperConnectionString %>" 
                         SelectCommand="SELECT * FROM [tb_product] ORDER BY [productId]"
-                        UpdateCommand="UPDATE [tb_product] SET productName=@productName,productType=@productType,productDesc=@productDesc,price=@productDesc WHERE productId=@productId"
+                        UpdateCommand="UPDATE [tb_product] SET productName=@productName,productType=@productType,productDesc=@productDesc,price=@price WHERE productId=@productId"
                         DeleteCommand="DELETE FROM [tb_product] WHERE productId=@productId"
                     ></asp:SqlDataSource>
 

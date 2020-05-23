@@ -11,7 +11,7 @@ namespace WPLProject
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (HttpContext.Current.Session["admin"] != null)
+            if (Session["admin"] != null)
             {
                 welcomeLbl.Text = "Welcome " + Session["admin"].ToString();
             }

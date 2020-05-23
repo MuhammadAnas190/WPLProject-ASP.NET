@@ -77,12 +77,12 @@
                     <asp:Label ID="pTypeInp" CssClass="form-control" runat="server" Text=""></asp:Label>
                 </div>
                 <div class="col-6 col-md-3">
-                    <asp:Label ID="Label14" runat="server" Text="Product Description"></asp:Label>
-                    <asp:Label ID="pDescInp" CssClass="form-control" runat="server" Text=""></asp:Label>
-                </div>
-                <div class="col-6 col-md-3">
                     <asp:Label ID="Label16" runat="server" Text="Product Price"></asp:Label>
                     <asp:Label ID="priceInp" CssClass="form-control" runat="server" Text=""></asp:Label>
+                </div>
+                <div class="col-6 col-md-3">
+                    <asp:Label ID="Label14" runat="server" Text="Product Description"></asp:Label>
+                    <asp:Label ID="pDescInp" CssClass="form-control h-100" runat="server" Text=""></asp:Label>
                 </div>
                 <div class="col-12 my-2">
                     <h3>User Details</h3>
