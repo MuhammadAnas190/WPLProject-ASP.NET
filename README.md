@@ -2,7 +2,7 @@
 
 Develop using ASP.NET Framework 4.7
 
-This project database:  *DATABASE.sql*
+This project database:  **DATABASE.sql**
 
 Admin Credentials: 
 email: admin@admin.com
